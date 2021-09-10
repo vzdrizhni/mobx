@@ -1,11 +1,11 @@
-import './App.css';
-import Component from './components/Counter';
+import "./App.css";
+import { Counter } from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Component initialCount={5} />
+        <Counter initialCount={5} />
       </header>
     </div>
   );
